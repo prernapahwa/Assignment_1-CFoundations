@@ -30,7 +30,7 @@ int main() {
 	b = a + b;
 	a = b - a;
     }
-    printf("a = %d\tb = %d",a,b);
+    printf("a= %d\tb= %d",a,b);
     return 0;
 }
 
