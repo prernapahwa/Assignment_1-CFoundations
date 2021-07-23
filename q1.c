@@ -3,7 +3,7 @@
  *
  * @Prerna(1910990964)
  * 23/7/2021
- * Assignment_1=CFoundations->q1
+ * Assignment_1-CFoundations->q1
  *
 **/
 #include<stdio.h>
