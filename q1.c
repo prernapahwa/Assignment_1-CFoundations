@@ -15,21 +15,12 @@ int main() {
 
     printf("b = ");
     scanf("%d",&b);
-
-    /*we have to compare a and b because we need to 
-     subtract the numbers in order to calculate their difference*/ 
-
-    if(a < b) {
-        b = b - a;
-	a = a + b;
-	b = a - b;
-    }
-
-    else if(a > b) {
-    	a = a - b;
-	b = a + b;
-	a = b - a;
-    }
+    
+    //logic
+    a=a+b;
+    b=a-b;
+    a=a-b; 
+	
     printf("a= %d\tb= %d",a,b);
     return 0;
 }
